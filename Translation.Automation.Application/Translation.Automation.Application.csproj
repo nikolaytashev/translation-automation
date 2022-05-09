@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Translation.Automation.Core\Translation.Automation.Core.csproj" />
+      <ProjectReference Include="..\Translation.Automation.GoogleTranslateSelenium\Translation.Automation.GoogleTranslateSelenium.csproj" />
+      <ProjectReference Include="..\Translation.Automation.LibreTranslate\Translation.Automation.LibreTranslate.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.CommandLine" Version="2.0.0-beta3.22114.1" />
+    </ItemGroup>
+
+</Project>
